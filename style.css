@@ -1,0 +1,445 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+}
+.content
+{
+    width: 100%;
+    height: 1000px;
+}
+.header .change li a:hover
+{
+    color: darkgreen;
+}
+.change li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.change .ti-bag:hover
+{
+    color: darkgreen;
+}
+.change .ti-search:hover
+{
+    color: darkgreen;
+}
+.csssearch
+{
+    width: 250px;
+    height: 30px;
+    float: left;
+    margin-left: 1010px;
+    display: none;
+}
+.cssclick
+{
+    width: 75px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.1);
+    float: left;
+    margin-left: 0px;
+    display: none;
+    cursor: pointer;
+}
+.cart
+{
+    display: none;
+}
+.phanloaisanpham
+{
+    width: 350px;
+    height: 400px;
+    margin-top: 150px;
+    float: left;
+}
+.sanpham
+{
+    width: 990px;
+    height: 3660px;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 150px;
+    margin-left: 5px;
+}
+.phanloaisanpham a
+{ 
+    text-decoration: none; 
+    color: black;
+}
+.phanloaisanpham p
+{
+    margin-left: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.phanloaisanpham p:hover
+{
+    color: darkgreen;
+}
+.phanloaisanpham p a:hover
+{
+    color: darkgreen;
+}
+.iconchange 
+{
+    cursor: pointer;
+}
+.iconchange i:hover
+{
+    color: darkgreen;
+}
+.sanpham .boxsanpham
+{
+    width: 250px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.02);
+    margin-left: 60px;
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.footer
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.footer .cssfooter:hover
+{
+    color: darkgreen;
+}
+.footer .cssfootercontent p:hover
+{
+    color: darkgreen;
+    cursor: pointer;
+    margin-top: -100px;
+}
+#login
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+}
+#login #modallogin
+{
+    width: 800px;
+    height:500px;
+    background-color: whitesmoke;
+    margin: 75px auto;
+    position: relative;
+}
+
+/* CSS cho hình ảnh sản phẩm */
+.product-image {
+    width: 250px;
+    height: 300px;
+  }
+
+  #suggestionsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  #suggestionsList li {
+    display: none;
+    flex-basis: calc(30% - 100px);
+    margin-bottom: 50px;
+    margin-right: 100px;
+  }
+  
+  #suggestionsList li:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  #suggestionsList li.visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #suggestionsList li.visible img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  #suggestionsList li.visible .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #suggestionsList li.visible .product-info .product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #suggestionsList li.visible .product-info .product-price {
+    color: gray;
+  }
+
+  /* .modalbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #modal-image {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    float: left;
+  } */
+
+
+
+
+  .add-to-cart {
+    background-color: whitesmoke;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: red solid 2px;
+    border-radius: 10px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: rgb(219, 207, 207);
+  }
+  
+  .add-to-cart:active {
+    background-color: rgb(216, 28, 14);
+  }
+  
+
+
+
+  .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cart-items {
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-item-title {
+  font-weight: bold;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.order {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: #45a049;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .modalbox {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .product-details {
+    display: flex;
+  }
+  
+  .product-details img {
+    width: 200px;
+    height: auto;
+  }
+
+
+  .shoe {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .shoe img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .shoe .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .shoe .price {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: grey;
+  }
+  
+
+  
